@@ -2,10 +2,17 @@
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFramework>net9.0-windows</TargetFramework>
+        <TargetFramework>net48</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Manufaktura.Controls" Version="1.4.2" />
+      <PackageReference Include="Manufaktura.Controls.WPF" Version="1.4.0" />
+      <PackageReference Include="Manufaktura.Music" Version="1.1.3" />
+    </ItemGroup>
 
 </Project>

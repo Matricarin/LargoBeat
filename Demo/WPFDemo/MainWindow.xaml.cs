@@ -4,8 +4,13 @@ namespace WPFDemo;
 
 public partial class MainWindow : Window
 {
-    public MainWindow()
+    private DemoViewModel _viewModel;
+
+    public MainWindow(DemoViewModel viewModel)
     {
+        _viewModel = viewModel;
+        DataContext = _viewModel;
         InitializeComponent();
+        _viewModel.LoadData();
     }
 }
