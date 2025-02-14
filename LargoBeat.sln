@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MusicNotationLib", "MusicNo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDemo", "Demo\WpfDemo\WpfDemo.csproj", "{2A3F1D20-AC1D-4A4A-A5F9-07C0F39CD295}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicNotationLib", "MusicNotationLib\MusicNotationLib\MusicNotationLib.csproj", "{654921D9-6658-4938-910F-B0A57A746CC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDemo", "Demo\ConsoleDemo\ConsoleDemo.csproj", "{6DED8774-1D07-424D-A218-7F0AD014A091}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +17,21 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2A3F1D20-AC1D-4A4A-A5F9-07C0F39CD295} = {2B26627D-D70D-418E-8115-EE3D0FD8C515}
+		{654921D9-6658-4938-910F-B0A57A746CC4} = {3AFECC2B-B001-4E82-87D9-53CD44009637}
+		{6DED8774-1D07-424D-A218-7F0AD014A091} = {2B26627D-D70D-418E-8115-EE3D0FD8C515}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2A3F1D20-AC1D-4A4A-A5F9-07C0F39CD295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2A3F1D20-AC1D-4A4A-A5F9-07C0F39CD295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A3F1D20-AC1D-4A4A-A5F9-07C0F39CD295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A3F1D20-AC1D-4A4A-A5F9-07C0F39CD295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{654921D9-6658-4938-910F-B0A57A746CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654921D9-6658-4938-910F-B0A57A746CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654921D9-6658-4938-910F-B0A57A746CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654921D9-6658-4938-910F-B0A57A746CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DED8774-1D07-424D-A218-7F0AD014A091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DED8774-1D07-424D-A218-7F0AD014A091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DED8774-1D07-424D-A218-7F0AD014A091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DED8774-1D07-424D-A218-7F0AD014A091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
