@@ -1,18 +1,9 @@
-﻿using System.Windows;
-
-namespace WPFDemo;
-
-public partial class App : Application
+﻿namespace WpfDemo
 {
-    protected override void OnExit(ExitEventArgs e)
+    /// <summary>
+    /// Interaction logic for App.xaml
+    /// </summary>
+    public partial class App
     {
-        base.OnExit(e);
-    }
-
-    protected override void OnStartup(StartupEventArgs e)
-    {
-        base.OnStartup(e);
-        var window = new MainWindow(new DemoViewModel());
-        window.Show();
     }
 }

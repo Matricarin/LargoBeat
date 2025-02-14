@@ -1,16 +1,13 @@
-﻿using System.Windows;
-
-namespace WPFDemo;
-
-public partial class MainWindow : Window
+﻿namespace WpfDemo
 {
-    private DemoViewModel _viewModel;
-
-    public MainWindow(DemoViewModel viewModel)
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow
     {
-        _viewModel = viewModel;
-        DataContext = _viewModel;
-        InitializeComponent();
-        _viewModel.LoadData();
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
     }
 }
